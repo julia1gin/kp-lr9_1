@@ -6,7 +6,6 @@ from flask import Flask, request, render_template
 from PIL import Image
 import PIL.ImageOps 
 import exif
-
 from pprint import pformat
 
 
