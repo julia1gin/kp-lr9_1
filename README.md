@@ -10,4 +10,4 @@
    
 3. Загрузить Docker-образ при помощи команды:
 
-  `docker push cr.yandex/<ваш_id>/<имя_Docker-образа>:<тег(версия)>`
+   `docker push cr.yandex/<ваш_id>/<имя_Docker-образа>:<тег(версия)>`
