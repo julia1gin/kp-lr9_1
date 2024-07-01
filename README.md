@@ -5,10 +5,6 @@
 Для создания Docker-образа необходимо проделать следующие действия:
 1. Аутентифицироваться в Container Registry (с помощью OAuth-токена)
 2. Собрать Docker-образ в PowerShell при помощи команды:
-   ```
-docker build . -t cr.yandex/<ваш_токен>/<имя_Docker-образа>:<тег(версия)>
-   ```
+   `docker build . -t cr.yandex/<ваш_токен>/<имя_Docker-образа>:<тег(версия)>`
 3. Загрузить Docker-образ при помощи команды:
-  ```
-docker push cr.yandex/<ваш_id>/<имя_Docker-образа>:<тег(версия)>
-  ```
+  `docker push cr.yandex/<ваш_id>/<имя_Docker-образа>:<тег(версия)>`
